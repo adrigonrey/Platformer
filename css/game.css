@@ -1,0 +1,33 @@
+.background    { background: url(http://i1333.photobucket.com/albums/w631/megapowerskills/Background_zps510c32af.jpg);
+                 border-spacing: 0; 
+   				background-repeat:no-repeat;
+   				background-size: 100%;
+                } 
+.background td { padding: 0;          }
+.lava          { background: rgb(69, 255, 224); }
+.wall          { background: rgb(125, 67, 5);   }
+
+.actor  { position: absolute;  }
+.coin   { background: url(http://www.mariowiki.com/images/7/7e/BananaSprite65.png); 
+		  background-size: 90%;	
+		  background-repeat: no-repeat;	
+		}
+.player { background: url(http://orig15.deviantart.net/d8fc/f/2010/210/3/f/diddy_kong_idle_sprite_by_xugggys.gif);
+          background-position: center;
+          background-size: 160%;
+          background-repeat: no-repeat;
+		}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px yellow, 4px -7px 8px yellow;
+}
